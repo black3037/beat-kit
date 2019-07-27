@@ -1,22 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './css/styles.css';
+import React, { useState, useEffect } from 'react';
 
-function App() {
+// Assets
+import './css/styles.css';
+import './assets/IconLibrary';
+
+// Components
+import NavBar from './components/NavBar'
+import Explore from './components/Explore'
+
+
+export default function App() {
+
   return (
-    <section class="hero is-info is-large">
-      <div class="hero-body">
-        <div class="container">
-          <h1 class="title">
-            BeatKit
-          </h1>
-          <h2 class="subtitle">
-            A way for artists to create, share, and collaborate on sample packs. Connect with your favorite artists.
-          </h2>
-        </div>
-      </div>
-    </section>
-  );
+    <div>
+      <NavBar/>
+      <Explore/>
+    </div>
+  )
+
 }
 
-export default App;
