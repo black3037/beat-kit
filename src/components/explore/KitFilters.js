@@ -12,7 +12,7 @@ function KitFilters() {
         <div className="tile is-parent">
             <div className="is-child">
                 <div className="field">
-                    <input id="switchExample" type="checkbox" name="switchExample" className="switch is-small" checked="checked"></input>
+                    <input id="switchExample" type="checkbox" name="switchExample" className="switch is-small is-rounded" checked="checked"></input>
                     <label for="switchExample">Trending</label>
                 </div>
             </div>
@@ -20,8 +20,16 @@ function KitFilters() {
         <div className="tile is-parent">
             <div className="is-child">
                 <div className="field">
-                    <input id="switchExample" type="checkbox" name="switchExample" className="switch is-small" checked="checked"></input>
+                    <input id="switchExample" type="checkbox" name="switchExample" className="switch is-small is-rounded" checked="checked"></input>
                     <label for="switchExample">Most Downloaded</label>
+                </div>
+            </div>
+        </div>
+        <div className="tile is-parent">
+            <div className="is-child">
+                <div className="field">
+                    <input id="switchExample" type="checkbox" name="switchExample" className="switch is-small is-rounded" checked="checked"></input>
+                    <label for="switchExample">Recent</label>
                 </div>
             </div>
         </div>

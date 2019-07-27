@@ -48,12 +48,9 @@ function NavBar(props) {
               </div>
             </div>
             <div className="navbar-end is-active">
-              <a className="navbar-item is-size-4">
-                <FontAwesomeIcon icon="user-circle" />
-              </a>
               <div className="navbar-item has-dropdown is-hoverable">
-                <a className="navbar-link is-arrowless" href="#">
-                <FontAwesomeIcon icon="ellipsis-v"/>
+                <a className="navbar-link is-arrowless is-size-4" href="#">
+                <FontAwesomeIcon icon="user-circle"/>
                 </a>
                 <div className="navbar-dropdown is-right">
                   <a className="navbar-item" href="#">

@@ -29,7 +29,8 @@ function Kit(props) {
                         <br></br>
                         <p className="heading"><strong>Genre: </strong>{props.kitGenre}</p>
                         <p className="heading"><strong>Sounds Like: </strong>{props.kitSoundsLike}</p>
-                        <br></br>
+                        <p className="heading"><strong>Sounds Like: </strong>{props.kitSoundsLike}</p>
+                        <hr className="dropdown-divider"></hr>
                         <time dateTime="2016-1-1">{props.kitDateCreated}</time>
                     </div>
                 </div>
