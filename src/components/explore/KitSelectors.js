@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 function KitSelectors() {
     return(
         <div className="section">
-        <h1 className="title">Refine your search</h1>
             <div className="level">
                 <div className="level-left">
                     <div className="level-item">

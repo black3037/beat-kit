@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 // Assets
 import './css/styles.css';
 import './assets/IconLibrary';
+import 'C:/Users/black/OneDrive/Documents/WebCode/beat-kit/node_modules/bulma-switch/dist/css/bulma-switch.min.css'
 
 // Components
 import NavBar from './components/NavBar'

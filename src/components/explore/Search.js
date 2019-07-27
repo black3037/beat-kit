@@ -3,7 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function Search() {
     return(
-        <div className="section">
+        <div>
+            <h1 className="title">Refine your search</h1>
             <div className="field has-addons">
                 <div className="control has-icons-left is-expanded">
                     <input className="input is-small" type="search" placeholder="Search Kits"></input>
