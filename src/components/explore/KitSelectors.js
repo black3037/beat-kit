@@ -2,7 +2,8 @@ import React from 'react'
 
 function KitSelectors() {
     return(
-        <div className="level">
+        <div className="section">
+        <div className="level is-mobile">
             <div className="level-left">
                 <div className="level-item">
                     <div className="field">
@@ -35,6 +36,7 @@ function KitSelectors() {
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     )
 }

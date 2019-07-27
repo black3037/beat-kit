@@ -1,12 +1,14 @@
 import React, { setState } from 'react'
 import Search from './explore/Search'
 import KitSelectors from './explore/KitSelectors'
+import KitExplore from './explore/KitExplore'
 
 function Explore() {
     return(
         <div className='container'>
-            <Search/>
-            <KitSelectors/>
+            <Search />
+            <KitSelectors />
+            <KitExplore />
         </div>
     )
 }
