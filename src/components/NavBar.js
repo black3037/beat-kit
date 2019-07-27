@@ -17,31 +17,31 @@ function NavBar(props) {
           </div>
           <div className="navbar-menu">
             <div className="navbar-start">
-              <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link" href="#">
+              <div className="navbar-item has-dropdown is-hoverable">
+                <a className="navbar-link" href="#">
                   More
               </a>
-                <div class="navbar-dropdown is-boxed">
-                  <a class="navbar-item" href="#">
+                <div className="navbar-dropdown is-boxed">
+                  <a className="navbar-item" href="#">
                     Overview
                 </a>
-                  <a class="navbar-item" href="#">
+                  <a className="navbar-item" href="#">
                     Modifiers
                 </a>
-                  <a class="navbar-item" href="#">
+                  <a className="navbar-item" href="#">
                     Columns
                 </a>
-                  <a class="navbar-item" href="#">
+                  <a className="navbar-item" href="#">
                     Layout
                 </a>
-                  <a class="navbar-item" href="#">
+                  <a className="navbar-item" href="#">
                     Form
                 </a>
-                  <hr class="navbar-divider"></hr>
-                  <a class="navbar-item" href="#">
+                  <hr className="navbar-divider"></hr>
+                  <a className="navbar-item" href="#">
                     Elements
                 </a>
-                  <a class="navbar-item is-active" href="#">
+                  <a className="navbar-item is-active" href="#">
                     Components
                 </a>
                 </div>
@@ -51,26 +51,26 @@ function NavBar(props) {
               <a className="navbar-item is-size-4">
                 <FontAwesomeIcon icon="user-circle" />
               </a>
-              <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link is-arrowless" href="#">
+              <div className="navbar-item has-dropdown is-hoverable">
+                <a className="navbar-link is-arrowless" href="#">
                 <FontAwesomeIcon icon="ellipsis-v"/>
                 </a>
-                <div class="navbar-dropdown is-right">
-                  <a class="navbar-item" href="#">
+                <div className="navbar-dropdown is-right">
+                  <a className="navbar-item" href="#">
                     <FontAwesomeIcon icon="user-plus"/>
                     Sign Up
                 </a>
-                <hr class="navbar-divider"></hr>
+                <hr className="navbar-divider"></hr>
                   <a className="navbar-item" href="#">
                     <FontAwesomeIcon icon="user"/>
                     Login
                 </a>
-                  <a class="navbar-item" href="#">
+                  <a className="navbar-item" href="#">
                     <FontAwesomeIcon icon="user-slash"/>
                     Logout
                 </a>
-                <hr class="navbar-divider"></hr>
-                <a class="navbar-item" href="#">
+                <hr className="navbar-divider"></hr>
+                <a className="navbar-item" href="#">
                   <FontAwesomeIcon icon="user-cog"/>
                   Settings
                 </a>

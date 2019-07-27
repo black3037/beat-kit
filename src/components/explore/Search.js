@@ -7,12 +7,12 @@ function Search() {
             <div className="field has-addons">
                 <div className="control has-icons-left is-expanded">
                     <input className="input is-small" type="search" placeholder="Search Kits"></input>
-                    <span class="icon is-small is-left">
+                    <span className="icon is-small is-left">
                         <FontAwesomeIcon icon="search"/>
                     </span>
                 </div>
                 <div className="control">
-                    <a class="button is-info is-small is-expanded">Search</a>
+                    <a className="button is-info is-small is-expanded">Search</a>
                 </div>
             </div>
         </div>
