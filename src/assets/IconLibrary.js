@@ -11,7 +11,11 @@ import
     faUser,
     faSearch,
     faMusic,
-    faSlidersH
+    faSlidersH,
+    faPlay,
+    faFileAudio,
+    faAsterisk,
+    faDownload
 } from '@fortawesome/free-solid-svg-icons';
 
 // This will add icons to the library that can be used in react components
@@ -26,6 +30,10 @@ library.add(
     faUser,
     faSearch,
     faMusic,
-    faSlidersH
+    faSlidersH,
+    faPlay,
+    faFileAudio,
+    faAsterisk,
+    faDownload
 )
 

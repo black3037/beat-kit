@@ -34,9 +34,9 @@ function Kit(props) {
                     </div>
                 </div>
                 <footer className="card-footer">
-                    <a href="#" className="card-footer-item">Download</a>
-                    <a href="#" className="card-footer-item">Info</a>
-                    <a href="#" className="card-footer-item">Details</a>
+                    <a href="#" className="card-footer-item"><FontAwesomeIcon icon="play"/>&nbsp;Preview</a>
+                    <a href="#" className="card-footer-item"><FontAwesomeIcon icon="download"/>&nbsp;Download</a>
+                    <a href="#" className="card-footer-item"><FontAwesomeIcon icon="asterisk"/>&nbsp;Details</a>
                 </footer>
             </div>
         </div>
