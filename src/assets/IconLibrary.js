@@ -8,7 +8,8 @@ import
     faUserPlus,
     faUserSlash,
     faUserCog,
-    faUser
+    faUser,
+    faSearch
 } from '@fortawesome/free-solid-svg-icons';
 
 // This will add icons to the library that can be used in react components
@@ -20,6 +21,7 @@ library.add(
     faUserPlus,
     faUserSlash,
     faUserCog,
-    faUser
+    faUser,
+    faSearch
 )
 

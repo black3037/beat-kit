@@ -1,23 +1,21 @@
 import React, { setState } from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function Search() {
     return(
-        <section className="level">
-            <div className="level-left">
-                <div className="level-item">
-                    <div className="field">
-                        <div className="control">
-                            <input className="input is-small" type="text" placeholder="Search Kits"></input>
-                        </div>
-                    </div>
+        <div className="section">
+            <div className="field has-addons">
+                <div className="control has-icons-left is-expanded">
+                    <input className="input is-small" type="search" placeholder="Search Kits"></input>
+                    <span class="icon is-small is-left">
+                        <FontAwesomeIcon icon="search"/>
+                    </span>
+                </div>
+                <div className="control">
+                    <a class="button is-info is-small is-expanded">Search</a>
                 </div>
             </div>
-            <div className="level-right">
-                <div className="level-item">
-                    <strong>Search Kits</strong>
-                </div>
-            </div>
-        </section>
+        </div>
     )
 }
 
