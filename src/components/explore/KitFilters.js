@@ -1,36 +1,28 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Switch from './Switch';
 
 function KitFilters() {
     return(
     <div className="tile is-ancestor">
         <div className="tile is-parent">
-            <div className="tile is-child">
-                <FontAwesomeIcon icon="filter"/>
+            <div className="is-child">
+                <Switch id="1" label="Trending" checked=""/>
             </div>
         </div>
         <div className="tile is-parent">
             <div className="is-child">
-                <div className="field">
-                    <input id="switchExample" type="checkbox" name="switchExample" className="switch is-small is-rounded" checked="checked"></input>
-                    <label for="switchExample">Trending</label>
-                </div>
+                <Switch id="1" label="Most Downloaded" checked=""/>
             </div>
         </div>
         <div className="tile is-parent">
             <div className="is-child">
-                <div className="field">
-                    <input id="switchExample" type="checkbox" name="switchExample" className="switch is-small is-rounded" checked="checked"></input>
-                    <label for="switchExample">Most Downloaded</label>
-                </div>
+                <Switch id="1" label="Recent" checked="checked"/>
             </div>
         </div>
         <div className="tile is-parent">
             <div className="is-child">
-                <div className="field">
-                    <input id="switchExample" type="checkbox" name="switchExample" className="switch is-small is-rounded" checked="checked"></input>
-                    <label for="switchExample">Recent</label>
-                </div>
+                <Switch id="1" label="Most Liked" checked=""/>
             </div>
         </div>
     </div>

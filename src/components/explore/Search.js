@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function Search() {
     return(
-        <div>
+        <div className="is-sticky">
             <h1 className="title">Search for Kits</h1>
             <div className="field has-addons">
                 <div className="control has-icons-left is-expanded">

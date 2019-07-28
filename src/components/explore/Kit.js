@@ -1,6 +1,8 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import GroupTag from './GroupTag'
+import Like from './Like';
+import KitDropdown from './KitDropdown'
 
 function Kit(props) {
 
@@ -11,11 +13,7 @@ function Kit(props) {
                     <div className="card-header-title">
                         <p>Kit Name</p>
                     </div>
-                    <a href="#" className="card-header-icon" aria-label="more options">
-                    <span className="icon">
-                        <FontAwesomeIcon icon="caret-down"/>
-                    </span>
-                    </a>
+                    <KitDropdown/>
                 </header>
                 <div className="card-content">
                     <div className="content">
@@ -29,9 +27,20 @@ function Kit(props) {
                         <br></br>
                         <p className="heading"><strong>Genre: </strong>{props.kitGenre}</p>
                         <p className="heading"><strong>Sounds Like: </strong>{props.kitSoundsLike}</p>
-                        <p className="heading"><strong>Sounds Like: </strong>{props.kitSoundsLike}</p>
+                        <p className="heading"><strong>Used In: </strong>{props.kitSoundsLike}</p>
                         <hr className="dropdown-divider"></hr>
-                        <time dateTime="2016-1-1">{props.kitDateCreated}</time>
+                        <div className="level">
+                            <div className="level-left">
+                                <div className="level-item">
+                                <p>Created: {props.kitDateCreated}</p>
+                                </div>
+                            </div>
+                            <div className="level-right">
+                                <div className="level-item">
+                                    <Like likeCount="3"/>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <footer className="card-footer">
