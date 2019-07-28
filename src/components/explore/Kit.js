@@ -44,9 +44,9 @@ function Kit(props) {
                     </div>
                 </div>
                 <footer className="card-footer">
-                    <a href="#" className="card-footer-item"><FontAwesomeIcon icon="play"/>&nbsp;Preview</a>
-                    <a href="#" className="card-footer-item"><FontAwesomeIcon icon="download"/>&nbsp;Download</a>
-                    <a href="#" className="card-footer-item"><FontAwesomeIcon icon="asterisk"/>&nbsp;Details</a>
+                    <a href="#" className="has-text-black card-footer-item"><FontAwesomeIcon icon="play"/></a>
+                    <a href="#" className="has-text-info card-footer-item"><FontAwesomeIcon icon="download"/></a>
+                    <a href="#" className="has-text-danger card-footer-item has-badge-rounded has-badge-danger has-badge-medium" data-badge="10"><FontAwesomeIcon icon="fire-alt"/></a>
                 </footer>
             </div>
         </div>
