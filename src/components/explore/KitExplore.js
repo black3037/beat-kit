@@ -1,5 +1,5 @@
 import React from 'react'
-import Kit from './Kit'
+import Kit from '../kit/Kit'
 
 function KitExplore() {
     return(
@@ -9,7 +9,7 @@ function KitExplore() {
                     <Kit 
                         kitName="My Kit"
                         kitGenre="Hip-Hop"
-                        kitRating="10"
+                        kitRating="12"
                         kitDescription="This is a very basic description of the kit that goes here"
                         kitDateCreated="1 Jan 2016"
                         kitCreator="Derek Black"

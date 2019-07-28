@@ -17,7 +17,8 @@ import
     faAsterisk,
     faDownload,
     faFilter,
-    faFireAlt
+    faFireAlt,
+    faWindowMaximize
 } from '@fortawesome/free-solid-svg-icons';
 
 // This will add icons to the library that can be used in react components
@@ -38,6 +39,7 @@ library.add(
     faAsterisk,
     faDownload,
     faFilter,
-    faFireAlt
+    faFireAlt,
+    faWindowMaximize
 )
 

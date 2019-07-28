@@ -1,5 +1,26 @@
-@charset "utf-8";
-@import "../beat-kit/node_modules/bulma/bulma.sass";
+//@charset "utf-8";
+//@import "../beat-kit/node_modules/bulma/sass/utilities/initial-variables";
+//@import "../beat-kit/node_modules/bulma/sass/utilities/functions";
+//@import "../beat-kit/node_modules/bulma/bulma.sass";
 
-$navbar-breakpoint: 0;
-$section-padding: 0.5rem 0.5rem;
+@import "./node_modules/bulma/sass/utilities/initial-variables";
+@import "./node_modules/bulma/sass/utilities/functions";
+@import "./node_modules/bulma/sass/utilities/derived-variables.sass";
+@import "./node_modules/bulma/bulma";
+
+$card-color: white;
+$card-background-color: #4C587F;
+
+$purple: #8A4D76;
+$pink: #FA7C91;
+$brown: #757763;
+$beige-light: #D0D1CD;
+$beige-lighter: #EFF0EB;
+
+$family-sans-serif: "Nunito", sans-serif;
+$grey-dark: $brown;
+$grey-light: $beige-light;
+$primary: $purple;
+$link: $pink;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
