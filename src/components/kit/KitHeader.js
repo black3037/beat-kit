@@ -7,7 +7,7 @@ function KitHeader(props) {
             <div className="card-header-title">
                 <p>{props.kitName}</p>
             </div>
-            <KitDropdown/>
+            <KitDropdown />
         </header>
     )
 }

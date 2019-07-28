@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 function KitDropdown(props) {
 
     return(
-        <div className="dropdown is-right is-active">
+        <div className="dropdown is-right">
             <div className="dropdown-trigger">
                 <a href="#" class="card-header-icon" aria-label="more options"> 
                 <span className="icon is-small">

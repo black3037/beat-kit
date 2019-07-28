@@ -1,32 +1,37 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Kit from '../kit/Kit'
 
+
 function KitExplore() {
+
+    const [response,setResponse] = useState([])
+    let cards = [];
+    // Grab JSON data from site's RESTful API
+    fetch('http://www.mocky.io/v2/5d3dcd5c320000fa1b6e557d?mocky-delay=2000ms')
+    .then(data => data.json())
+    .then(data => setResponse(data))
+  
+    try {
+        cards = response.data.kits.map(kit => 
+            <Kit 
+                kitName={kit.kitName}
+                kitGenre={kit.kitGenre}
+                kitRating={kit.kitRating}
+                kitDescription={kit.kitDescription}
+                kitDateCreated={kit.kitDateCreated}
+                kitCreator={kit.kitCreator}
+                kitSoundsLike={kit.kitSoundsLike}
+            />
+        )
+    } catch (error) {
+        console.log(error)
+    }
+
     return(
         <div className="section">
             <div className="container">
                 <div className="columns is-multiline is-mobile">
-                    <Kit 
-                        kitName="My Kit"
-                        kitGenre="Hip-Hop"
-                        kitRating="12"
-                        kitDescription="This is a very basic description of the kit that goes here"
-                        kitDateCreated="1 Jan 2016"
-                        kitCreator="Derek Black"
-                        kitSoundsLike="Made in Heights"
-                    />
-                    <Kit />
-                    <Kit />
-                    <Kit />
-                    <Kit />
-                    <Kit />
-                    <Kit />
-                    <Kit />
-                    <Kit />
-                    <Kit />
-                    <Kit />
-                    <Kit />
-                    <Kit />
+                    {cards}
                 </div>
             </div>
         </div>
