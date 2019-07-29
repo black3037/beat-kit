@@ -5,9 +5,10 @@ import Kit from '../kit/Kit'
 function KitExplore() {
 
     const [response,setResponse] = useState([])
-    let cards = [];
+    // Load progress bar until card data has been received.
+    let cards = <progress class="progress is-small is-info" max="100"></progress>;
     // Grab JSON data from site's RESTful API
-    fetch('http://www.mocky.io/v2/5d3dcd5c320000fa1b6e557d?mocky-delay=2000ms')
+    fetch('http://www.mocky.io/v2/5d3dcd5c320000fa1b6e557d?mocky-delay=4000ms')
     .then(data => data.json())
     .then(data => setResponse(data))
   

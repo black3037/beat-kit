@@ -12,17 +12,17 @@ function KitFilters() {
         </div>
         <div className="tile is-parent">
             <div className="is-child">
-                <Switch id="1" label="Most Downloaded" checked=""/>
+                <Switch id="2" label="Most Downloaded" checked=""/>
             </div>
         </div>
         <div className="tile is-parent">
             <div className="is-child">
-                <Switch id="1" label="Recent" checked="checked"/>
+                <Switch id="3" label="Recent" checked="checked"/>
             </div>
         </div>
         <div className="tile is-parent">
             <div className="is-child">
-                <Switch id="1" label="Most Liked" checked=""/>
+                <Switch id="4" label="Most Liked" checked=""/>
             </div>
         </div>
     </div>

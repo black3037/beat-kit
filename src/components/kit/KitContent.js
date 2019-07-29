@@ -1,18 +1,14 @@
 import React from 'react'
 import GroupTag from '../explore/GroupTag'
+import KitCreator from './KitCreator'
 
 function KitContent(props) {
     return(
         <div className="card-content">
+            <KitCreator
+                kitCreator = {props.kitCreator}
+            />
             <div className="content">
-                <span className="is-flex">
-                    <GroupTag 
-                        name="Artist" 
-                        data={props.kitCreator}
-                        color="is-danger"
-                    />
-                </span>
-                <br></br>
                 <p className="heading"><strong>Genre: </strong>{props.kitGenre}</p>
                 <p className="heading"><strong>Sounds Like: </strong>{props.kitSoundsLike}</p>
                 <p className="heading"><strong>Used In: </strong>{props.kitSoundsLike}</p>

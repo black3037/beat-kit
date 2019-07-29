@@ -3,24 +3,27 @@
 //@import "../beat-kit/node_modules/bulma/sass/utilities/functions";
 //@import "../beat-kit/node_modules/bulma/bulma.sass";
 
+//$dark-purple: #222741;
+//$semi-dark-purple: #242C44;
+//$purple: #4C587F;
+//$light-purple: #6059E8;
+
+//$primary: $light-purple;
+//$link: $light-purple;
+
+// Main site
+//$body-background-color: $dark-purple;
+//$body-color: white;
+
+// Card modifiers
+//$card-color: rgb(203, 190, 216);
+//$card-background-color: #4C587F;
+//$card-header-color: white;
+//$card-header-background-color: #4C587F;
+//$card-footer-background-color: #4C587F;
+
+
 @import "./node_modules/bulma/sass/utilities/initial-variables";
 @import "./node_modules/bulma/sass/utilities/functions";
 @import "./node_modules/bulma/sass/utilities/derived-variables.sass";
-@import "./node_modules/bulma/bulma";
-
-$card-color: white;
-$card-background-color: #4C587F;
-
-$purple: #8A4D76;
-$pink: #FA7C91;
-$brown: #757763;
-$beige-light: #D0D1CD;
-$beige-lighter: #EFF0EB;
-
-$family-sans-serif: "Nunito", sans-serif;
-$grey-dark: $brown;
-$grey-light: $beige-light;
-$primary: $purple;
-$link: $pink;
-$widescreen-enabled: false;
-$fullhd-enabled: false;
+@import "./node_modules/bulma/bulma.sass";
