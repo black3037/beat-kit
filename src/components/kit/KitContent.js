@@ -1,6 +1,7 @@
 import React from 'react'
 import GroupTag from '../explore/GroupTag'
 import KitCreator from './KitCreator'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function KitContent(props) {
     return(
@@ -14,14 +15,26 @@ function KitContent(props) {
                 <p className="heading"><strong>Used In: </strong>{props.kitSoundsLike}</p>
                 <p className="heading"><strong>Description: </strong>{props.kitDescription}</p>
                 <hr className="dropdown-divider"></hr>
-                <div className="level">
-                    <div className="level-left">
-                        <div className="level-item">
-                        <p>Created: {props.kitDateCreated}</p>
+                <div class="field is-grouped is-grouped-multiline">
+                    <div class="control">
+                        <div class="tags has-addons">
+                        <span class="tag is-dark">
+                            <span class="icon is-small">
+                                <FontAwesomeIcon icon="download"/>
+                            </span>
+                        </span>
+                        <span class="tag is-info">30,000</span>
                         </div>
                     </div>
-                    <div className="level-right">
-                        <div className="level-item">
+
+                    <div class="control">
+                        <div class="tags has-addons">
+                        <span class="tag is-dark">
+                            <span class="icon is-small">
+                                <FontAwesomeIcon icon="fire-alt"/>
+                            </span>
+                        </span>
+                        <span class="tag is-danger">1,000</span>
                         </div>
                     </div>
                 </div>
