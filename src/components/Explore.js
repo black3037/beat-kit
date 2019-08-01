@@ -9,9 +9,7 @@ function Explore() {
         <div className='container'>
             <div className="section">
                 <Search />
-                <KitSelectors />
-                <KitFilters />
-                <hr className="dropdown-divider"></hr>
+                
             </div>
             <KitExplore />
         </div>

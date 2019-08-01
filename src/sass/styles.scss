@@ -22,6 +22,38 @@
 //$card-header-background-color: #4C587F;
 //$card-footer-background-color: #4C587F;
 
+$modal-full-color: white;
+
+.modal-full{
+    align-items: center;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    background-color: $modal-full-color;
+}
+
+.modal-full.is-active{
+    display: flex;
+}
+
+.modal-full-header{
+    padding: 10px;
+    width: 100%;
+    background-color: $modal-full-color;
+}
+
+.modal-full-content {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: none;
+    padding: 10px;
+}
+
 
 @import "./node_modules/bulma/sass/utilities/initial-variables";
 @import "./node_modules/bulma/sass/utilities/functions";

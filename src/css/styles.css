@@ -1,3 +1,29 @@
+.modal-full {
+  align-items: center;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  background-color: white; }
+
+.modal-full.is-active {
+  display: flex; }
+
+.modal-full-header {
+  padding: 10px;
+  width: 100%;
+  background-color: white; }
+
+.modal-full-content {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: none;
+  padding: 10px; }
+
 /*! bulma.io v0.7.5 | MIT License | github.com/jgthms/bulma */
 @keyframes spinAround {
   from {

@@ -24,7 +24,6 @@ function Kit(props) {
                     button2={<FontAwesomeIcon icon="window-maximize"/>}    
                     button3={<FontAwesomeIcon icon="download"/>}
                     button4={<FontAwesomeIcon icon="fire-alt"/>}
-                    button4Data={props.kitRating}
                 />
             </div>
         </div>
