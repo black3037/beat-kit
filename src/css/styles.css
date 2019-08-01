@@ -24,6 +24,18 @@
   overflow-x: none;
   padding: 10px; }
 
+.box:hover {
+  box-shadow: 0 2px 3px rgba(10, 10, 10, 0.5), 0 0 0 1px rgba(10, 10, 10, 0.5); }
+
+.has-small-margin {
+  margin: 5px !important; }
+
+.has-very-small-margin {
+  margin: 1px !important; }
+
+.has-centering {
+  justify-content: center !important; }
+
 /*! bulma.io v0.7.5 | MIT License | github.com/jgthms/bulma */
 @keyframes spinAround {
   from {
@@ -1178,7 +1190,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
   color: #4a4a4a;
   display: block;
-  padding: 1.25rem; }
+  padding: 0.5rem; }
 
 a.box:hover, a.box:focus {
   box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px #3273dc; }

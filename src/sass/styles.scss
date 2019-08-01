@@ -1,29 +1,12 @@
-//@charset "utf-8";
-//@import "../beat-kit/node_modules/bulma/sass/utilities/initial-variables";
-//@import "../beat-kit/node_modules/bulma/sass/utilities/functions";
-//@import "../beat-kit/node_modules/bulma/bulma.sass";
+// Bulma Overrides
+$box-padding: 0.50rem;
 
-//$dark-purple: #222741;
-//$semi-dark-purple: #242C44;
-//$purple: #4C587F;
-//$light-purple: #6059E8;
-
-//$primary: $light-purple;
-//$link: $light-purple;
-
-// Main site
-//$body-background-color: $dark-purple;
-//$body-color: white;
-
-// Card modifiers
-//$card-color: rgb(203, 190, 216);
-//$card-background-color: #4C587F;
-//$card-header-color: white;
-//$card-header-background-color: #4C587F;
-//$card-footer-background-color: #4C587F;
-
+// Custom Vars
 $modal-full-color: white;
 
+
+// Custom CSS
+// Full Screen Modal
 .modal-full{
     align-items: center;
     display: none;
@@ -54,6 +37,21 @@ $modal-full-color: white;
     padding: 10px;
 }
 
+// Add hover effect to Bulma box
+.box:hover{
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.5), 0 0 0 1px rgba(10, 10, 10, 0.5);
+}
+
+// Add additional modifiers to Bulma
+.has-small-margin {
+    margin: 5px !important; }
+
+.has-very-small-margin {
+    margin: 1px !important; }
+
+.has-centering {
+    justify-content: center !important;
+}
 
 @import "./node_modules/bulma/sass/utilities/initial-variables";
 @import "./node_modules/bulma/sass/utilities/functions";
